@@ -16,3 +16,6 @@ WHERE name ='Agumon' OR name='Pikachu';
 
 --List name and escape attempts of animals that weigh more than 10.5kg
 SELECT name, escape_attempts, weight_kg FROM animals WHERE weight_kg > 10.15;
+
+--Find all animals that are neutered.
+SELECT * FROM  animals  WHERE  neutered = true;
