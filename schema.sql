@@ -2,7 +2,7 @@
 CREATE DATABASE vet_clinic;
 
 -- create animals table
-CREATE TABLE animals IF NOT EXISTS(
+CREATE TABLE animals(
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name VARCHAR(100),
     date_of_birth DATE,
